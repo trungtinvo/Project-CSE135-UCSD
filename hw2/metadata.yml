@@ -1,0 +1,16 @@
+---
+:id: 124184953
+:submitters:
+- :name: Trung Vo
+  :email: t8vo@ucsd.edu
+- :name: Kim Nguyen
+  :email: kkn003@ucsd.edu
+- :name: Duc Pham
+  :email: dtp004@ucsd.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2022-04-28 04:16:28.854835000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2022-04-27 21:16:28.854835000 Z
+:status: processed
+:score: 119.0

@@ -1,0 +1,14 @@
+{
+    "People": [
+      {
+        "id": 1,
+        "name": "Phantom",
+        "dob": "1/1/1911"
+      },
+      {
+        "id": 2,
+        "title": "Hulk",
+        "author": "2/2/1922"
+      }
+    ]
+  }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Chart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <style>
+        .chart-container {
+        margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="chart-container" style="position: relative; height:500px; width:700px">
+        <canvas id="barChart"></canvas>
+    </div>
+
+    <div class="chart-container" style="position: relative; height:500px; width:700px">
+        <canvas id="lineChart"></canvas>
+    </div>
+
+    <div class="chart-container" style="position: relative; height:400px; width:400px">
+        <canvas id="pieChart"></canvas>
+    </div>
+
+    <script>
+        // Global Options
+        Chart.defaults.font.family = 'Lato';
+        Chart.defaults.font.size = 15;
+        Chart.defaults.font.color = '#777';
+
+    </script>
+    <script src="./dataVisualization.js"></script>
+</body>
+</html>

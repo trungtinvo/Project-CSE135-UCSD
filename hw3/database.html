@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <meta charset="utf-8">
+  <title>Database</title>
+  <link rel="stylesheet" href="zinggrid.css" />
+  <!--Script Reference[1]-->
+  <script src="https://cdn.zinggrid.com/zinggrid.min.js"></script>
+</head>
+ 
+<body id='databaseBody'>
+  <!--Grid Component Placement[2]-->
+  
+  <zing-grid id = "sessionTable" caption="Session ID Table" sort search pager page-size="3" page-size-options="3" viewport-stop data='[
+        ]'>
+  </zing-grid>
+
+  <zing-grid id = "staticTable" caption="Static Table" sort search pager page-size="3" page-size-options="3,6,9" viewport-stop data='[
+  ]'>
+  </zing-grid>
+
+  <zing-grid id = "performanceTable" caption="Performance Table" sort search pager page-size="3" page-size-options="3,6,9" viewport-stop data='[
+  ]'>
+  </zing-grid>
+
+  <zing-grid id = "clickEventTable" caption="Click Event Table" sort search pager page-size="3" page-size-options="3,6,9" viewport-stop data='[
+  ]'>
+  </zing-grid>
+
+  <zing-grid id = "mouseMoveEventTable" caption="MouseMove Event Table " sort search pager page-size="3" page-size-options="3,6,9" viewport-stop data='[
+  ]'>
+  </zing-grid>
+
+  <zing-grid id = "keyDownEventTable" caption="KeyDown Event Table " sort search pager page-size="3" page-size-options="3,6,9" viewport-stop data='[
+  ]'>
+  </zing-grid>
+
+  <zing-grid id = "keyUpEventTable" caption="KeyUp Event Table" sort search pager page-size="3" page-size-options="3,6,9" viewport-stop data='[
+  ]'>
+  </zing-grid>
+
+  <zing-grid id = "scrollEventTable" caption="Scroll Event Table" sort search pager page-size="3" page-size-options="3,6,9" viewport-stop data='[
+  ]'>
+  </zing-grid>
+
+  <zing-grid id = "idleEventTable" caption="Idle Event Table" sort search pager page-size="3" page-size-options="3,6,9" viewport-stop data='[
+  ]'>
+  </zing-grid>
+
+  <zing-grid id = "pageEventTable" caption="Page Event Table" sort search pager page-size="3" page-size-options="3,6,9" viewport-stop data='[
+  ]'>
+  </zing-grid>
+
+  <script type="module" src="./insertGridData.js"></script>
+  <script type="module" src="./collectActivityVer2.js"></script>
+</body>
+ 
+</html>
